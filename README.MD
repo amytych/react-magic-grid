@@ -1,6 +1,6 @@
 # React Magic Grid
 
-A this react adapter for [Magic Grid](https://github.com/e-oj/Magic-Grid).
+A react adapter for [Magic Grid](https://github.com/e-oj/Magic-Grid).
 Uses react hooks, so requires react at least in version 16.8.0.
 
 There is [another react adapter available](https://github.com/IniZio/Magic-Grid-React) that uses react's Component Class so it also supports older versions of react.
