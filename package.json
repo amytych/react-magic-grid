@@ -1,6 +1,6 @@
 {
   "name": "react-magic-grid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Thin react wrapper around magic-grid usin hooks",
   "main": "dist/react-magic-grid.cjs.js",
   "module": "dist/react-magic-grid.es.js",
