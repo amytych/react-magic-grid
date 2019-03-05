@@ -1,10 +1,11 @@
 # React Magic Grid
 
-A react port of [Magic Grid](https://github.com/e-oj/Magic-Grid).
-This port uses react hooks, so requires react at least in version 16.8.0.
-There is [another port available](https://github.com/IniZio/Magic-Grid-React) that uses react's Component so it also supports older versions of react.
+A this react adapter for [Magic Grid](https://github.com/e-oj/Magic-Grid).
+Uses react hooks, so requires react at least in version 16.8.0.
 
-[See example use cases](https://amytych.github.io/react-magic-grid/index.html).
+There is [another react adapter available](https://github.com/IniZio/Magic-Grid-React) that uses react's Component Class so it also supports older versions of react.
+
+[See example use cases](https://amytych.github.io/react-magic-grid/).
 
 ### Usage
 
@@ -24,4 +25,4 @@ const Cards = ({ cards }) => (
 
 ### Props
 
-Supports all options in [Magic-Grid's config](https://github.com/e-oj/Magic-Grid#magicgridconfig)
+Supports all options in [Magic-Grid's config](https://github.com/e-oj/Magic-Grid#magicgridconfig).
