@@ -53,14 +53,14 @@
     "eslint-config-i-am-meticulous": "11.0.0",
     "eslint-plugin-react": "7.12.4",
     "magic-grid": "3.2.4",
-    "prettier": "^1.16.4",
+    "prettier": "1.16.4",
     "prop-types": "15.7.2",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "rollup": "^1.4.0",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.2.1",
-    "rollup-plugin-node-resolve": "^4.0.1"
+    "rollup": "1.4.1",
+    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-commonjs": "9.2.1",
+    "rollup-plugin-node-resolve": "4.0.1"
   },
   "prettier": {
     "semi": false,
