@@ -16,6 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/amytych/react-magic-grid.git"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "keywords": [
     "react",
     "magic-grid",
