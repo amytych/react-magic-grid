@@ -37,8 +37,8 @@
   },
   "peerDependencies": {
     "magic-grid": "3.2.4",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   },
   "devDependencies": {
     "@babel/cli": "7.5.5",
@@ -55,8 +55,8 @@
     "magic-grid": "3.2.4",
     "prettier": "1.18.2",
     "prop-types": "15.7.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "rollup": "1.17.0",
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.0.1",
