@@ -4,9 +4,9 @@ import MagicGrid from "magic-grid"
 
 const MagicGridWrapper = ({ children, ...props }) => {
   const container = useRef(null)
-  let grid = null
 
   useEffect(() => {
+    let grid = null
     let timeout
     // magic-grid handles resizing via its own `listen` method
     // unfortunately event listener it creates is not being cleaned up
