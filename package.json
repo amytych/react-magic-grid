@@ -51,7 +51,7 @@
     "babel-loader": "8.0.6",
     "eslint": "6.4.0",
     "eslint-config-i-am-meticulous": "11.0.0",
-    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react": "7.16.0",
     "magic-grid": "3.2.4",
     "prettier": "1.18.2",
     "prop-types": "15.7.2",
