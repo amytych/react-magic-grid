@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react"
 import PropTypes from "prop-types"
 import MagicGrid from "magic-grid"
 
-const MagicGridWrapper = ({ children, ...props }) => {
+const MagicGridWrapper = ({ as: Component = "div", children, ...props }) => {
   const container = useRef(null)
 
   useEffect(() => {
@@ -32,10 +32,11 @@ const MagicGridWrapper = ({ children, ...props }) => {
     }
   })
 
-  return <div ref={container}>{children}</div>
+  return <Component ref={container}>{children}</Component>
 }
 
 MagicGridWrapper.propTypes = {
+  as: PropTypes.oneOfType([PropTypes.string, PropTypes.elementType]),
   children: PropTypes.arrayOf(PropTypes.node),
 }
 
